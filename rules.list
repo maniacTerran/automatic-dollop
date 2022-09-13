@@ -1,105 +1,39 @@
-PROCESS-NAME,/System/Applications/TV.app/Contents/MacOS/TV,🔰国外流量
-DOMAIN-SUFFIX,au,🇦🇺澳洲流量
-DOMAIN-SUFFIX,tiktok.com,🇺🇸美国流量
-PROCESS-NAME,/Applications/qbittorrent.app/Contents/MacOS/qbittorrent,DIRECT
-PROCESS-NAME,/Applications/Transmission.app/Contents/MacOS/Transmission,DIRECT
-PROCESS-NAME,/Applications/WeChat.app/Contents/MacOS/WeChat,DIRECT
-PROCESS-NAME,v2ray,DIRECT
-PROCESS-NAME,xray,DIRECT
-PROCESS-NAME,clash,DIRECT
-PROCESS-NAME,naive,DIRECT
-PROCESS-NAME,trojan,DIRECT
-PROCESS-NAME,trojan-go,DIRECT
-PROCESS-NAME,ss-local,DIRECT
-PROCESS-NAME,privoxy,DIRECT
-PROCESS-NAME,leaf,DIRECT
-PROCESS-NAME,Thunder,DIRECT
-PROCESS-NAME,DownloadService,DIRECT
-PROCESS-NAME,qBittorrent,DIRECT
-PROCESS-NAME,Transmission,DIRECT
-PROCESS-NAME,fdm,DIRECT
-PROCESS-NAME,aria2c,DIRECT
-PROCESS-NAME,Folx,DIRECT
-PROCESS-NAME,NetTransport,DIRECT
-PROCESS-NAME,uTorrent,DIRECT
-PROCESS-NAME,WebTorrent,DIRECT
-URL-REGEX,(Subject|HELO|SMTP),DIRECT
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com,DIRECT
-URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com),DIRECT
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
-PROCESS-NAME,DownloadService,DIRECT
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com),DIRECT
-PROCESS-NAME,Weiyun,DIRECT
-USER-AGENT,Argo*,🎬Netflix
-DOMAIN-SUFFIX,netflix.com,🎬Netflix
-DOMAIN-SUFFIX,netflix.net,🎬Netflix
-DOMAIN-SUFFIX,nflxext.com,🎬Netflix
-DOMAIN-SUFFIX,nflximg.com,🎬Netflix
-DOMAIN-SUFFIX,nflximg.net,🎬Netflix
-DOMAIN-SUFFIX,nflxso.net,🎬Netflix
-DOMAIN-SUFFIX,nflxvideo.net,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest0.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest1.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest2.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest3.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest4.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest5.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest6.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest7.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest8.com,🎬Netflix
-DOMAIN-SUFFIX,netflixdnstest9.com,🎬Netflix
-IP-CIDR,23.246.0.0/18,🎬Netflix,no-resolve
-IP-CIDR,37.77.184.0/21,🎬Netflix,no-resolve
-IP-CIDR,45.57.0.0/17,🎬Netflix,no-resolve
-IP-CIDR,64.120.128.0/17,🎬Netflix,no-resolve
-IP-CIDR,66.197.128.0/17,🎬Netflix,no-resolve
-IP-CIDR,108.175.32.0/20,🎬Netflix,no-resolve
-IP-CIDR,192.173.64.0/18,🎬Netflix,no-resolve
-IP-CIDR,198.38.96.0/19,🎬Netflix,no-resolve
-IP-CIDR,198.45.48.0/20,🎬Netflix,no-resolve
-USER-AGENT,com.apple.geod*,🍎地理限制
-USER-AGENT,com.apple.Maps,🍎地理限制
-USER-AGENT,geod*,🍎地理限制
-USER-AGENT,locationd*,🍎地理限制
-USER-AGENT,Maps*,🍎地理限制
-DOMAIN,gs-loc.apple.com,🍎地理限制 // Maps
-DOMAIN-SUFFIX,lcdn-locator.apple.com,🍎地理限制
-DOMAIN-SUFFIX,lcdn-registration.apple.com,🍎地理限制
-DOMAIN-SUFFIX,ls.apple.com,🍎地理限制
-USER-AGENT,AppleNews*,🇺🇸美国流量
-DOMAIN-SUFFIX,apple.news,🇺🇸美国流量
-DOMAIN,news-events.apple.com,🇺🇸美国流量
-DOMAIN,news-edge.apple.com,🇺🇸美国流量
-DOMAIN,apple.comscoreresearch.com,🇺🇸美国流量
-DOMAIN,play.itunes.apple.com,🇺🇸美国流量
-DOMAIN,play-cdn.itunes-apple.com.akadns.net,🇺🇸美国流量
-USER-AGENT,com.google.ios.youtube*,🎥Youtube
-USER-AGENT,YouTube*,🎥Youtube
-DOMAIN-SUFFIX,googlevideo.com,🎥Youtube
-DOMAIN-SUFFIX,youtube.com,🎥Youtube
-DOMAIN,youtubei.googleapis.com,🎥Youtube
+DOMAIN-SUFFIX,au,🇦🇺 澳洲节点
+DOMAIN-SUFFIX,tiktok.com,🇺🇲 美国节点
+USER-AGENT,com.apple.geod*,🍎 地理限制
+USER-AGENT,com.apple.Maps,🍎 地理限制
+USER-AGENT,geod*,🍎 地理限制
+USER-AGENT,locationd*,🍎 地理限制
+USER-AGENT,Maps*,🍎 地理限制
+DOMAIN,gs-loc.apple.com,🍎 地理限制 // Maps
+DOMAIN-SUFFIX,lcdn-locator.apple.com,🍎 地理限制
+DOMAIN-SUFFIX,lcdn-registration.apple.com,🍎 地理限制
+DOMAIN-SUFFIX,ls.apple.com,🍎 地理限制
+USER-AGENT,AppleNews*,🇺🇲 美国节点
+DOMAIN-SUFFIX,apple.news,🇺🇲 美国节点
+DOMAIN,news-events.apple.com,🇺🇲 美国节点
+DOMAIN,news-edge.apple.com,🇺🇲 美国节点
+DOMAIN,apple.comscoreresearch.com,🇺🇲 美国节点
+DOMAIN,play.itunes.apple.com,🇺🇲 美国节点
+DOMAIN,play-cdn.itunes-apple.com.akadns.net,🇺🇲 美国节点
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/private.txt,DIRECT
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
-# DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/icloud.txt,🍎苹果服务
-DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/apple.txt,🍎苹果服务
+# DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/icloud.txt,🍎 苹果服务
+DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/apple.txt,🍎 苹果服务
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/google.txt,DIRECT
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/proxy.txt,🔰国外流量
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt,DIRECT
-RULE-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/telegramcidr.txt,✈️Telegram
+RULE-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/telegramcidr.txt,✈️ Telegram
 RULE-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt,DIRECT
-DOMAIN-SUFFIX,apple.co,🍎苹果服务
-DOMAIN-SUFFIX,apple.com,🍎苹果服务
-DOMAIN-SUFFIX,apple-cloudkit.com,🍎苹果服务
-DOMAIN-SUFFIX,appstore.com,🍎苹果服务
-DOMAIN-SUFFIX,cdn-apple.com,🍎苹果服务
-DOMAIN-SUFFIX,crashlytics.com,🍎苹果服务
-DOMAIN-SUFFIX,icloud.com,🍎苹果服务
-DOMAIN-SUFFIX,icloud-content.com,🍎苹果服务
-DOMAIN-SUFFIX,me.com,🍎苹果服务
-DOMAIN-SUFFIX,mzstatic.com,🍎苹果服务
-DOMAIN,www-cdn.icloud.com.akadns.net,🍎苹果服务
-RULE-SET,LAN,DIRECT
-GEOIP,CN,DIRECT
-FINAL,⚓️其他流量,dns-failed
+DOMAIN-SUFFIX,apple.co,🍎 苹果服务
+DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
+DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+DOMAIN-SUFFIX,me.com,🍎 苹果服务
+DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
+DOMAIN,www-cdn.icloud.com.akadns.net,🍎 苹果服务
