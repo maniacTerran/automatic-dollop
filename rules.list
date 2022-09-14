@@ -1,21 +1,4 @@
 DOMAIN-SUFFIX,au,🇦🇺 澳洲节点
-DOMAIN-SUFFIX,tiktok.com,🇺🇲 美国节点
-USER-AGENT,com.apple.geod*,🍎 地理限制
-USER-AGENT,com.apple.Maps,🍎 地理限制
-USER-AGENT,geod*,🍎 地理限制
-USER-AGENT,locationd*,🍎 地理限制
-USER-AGENT,Maps*,🍎 地理限制
-DOMAIN,gs-loc.apple.com,🍎 地理限制 // Maps
-DOMAIN-SUFFIX,lcdn-locator.apple.com,🍎 地理限制
-DOMAIN-SUFFIX,lcdn-registration.apple.com,🍎 地理限制
-DOMAIN-SUFFIX,ls.apple.com,🍎 地理限制
-USER-AGENT,AppleNews*,🇺🇲 美国节点
-DOMAIN-SUFFIX,apple.news,🇺🇲 美国节点
-DOMAIN,news-events.apple.com,🇺🇲 美国节点
-DOMAIN,news-edge.apple.com,🇺🇲 美国节点
-DOMAIN,apple.comscoreresearch.com,🇺🇲 美国节点
-DOMAIN,play.itunes.apple.com,🇺🇲 美国节点
-DOMAIN,play-cdn.itunes-apple.com.akadns.net,🇺🇲 美国节点
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/private.txt,DIRECT
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/reject.txt,REJECT
 RULE-SET,SYSTEM,DIRECT
@@ -26,14 +9,3 @@ DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/pr
 DOMAIN-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt,DIRECT
 RULE-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/telegramcidr.txt,✈️ Telegram
 RULE-SET,https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt,DIRECT
-DOMAIN-SUFFIX,apple.co,🍎 苹果服务
-DOMAIN-SUFFIX,apple.com,🍎 苹果服务
-DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
-DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
-DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
-DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
-DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
-DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
-DOMAIN-SUFFIX,me.com,🍎 苹果服务
-DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
-DOMAIN,www-cdn.icloud.com.akadns.net,🍎 苹果服务
